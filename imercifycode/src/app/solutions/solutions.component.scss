@@ -1,0 +1,236 @@
+.sub{
+    font-family: Arial, Helvetica, sans-serif !important;
+  
+  }
+  h1{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 48px;
+  
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif ;
+  }
+
+  .next{
+    margin: 0 0 0 12px;
+    font-size: 16px;
+    color: #fff;
+    font-family: sans-serif;
+    // background-color: #f67a71; 
+    background: linear-gradient(to left, #df9dba 15%, #9e93dd 75%);
+
+    border-radius: 100px;
+    width: 140px;
+    height: 40px;
+    // padding: 0 17px !important;
+    }
+
+    .home-page-gallery {
+        max-width: 960px;
+        // background: #fff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 30px #0000001a;
+        border: 2px solid #fff;
+        border-radius: 12px;
+        padding: 25px;
+        margin: auto;
+        margin-top: 30px;
+      }
+
+      .active{
+        color: #df9dba ;
+        cursor: pointer;
+      
+      }
+   
+      li{
+        cursor: pointer;
+      }
+      
+      .imggs{
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+      }
+  
+    .sec-card{
+      margin-left: 15px;
+    }
+    
+    .see{
+      font-size: 24px;
+        font-weight: 700;
+        text-transform: none;
+        color: #000;
+        margin: 0;
+    }
+    .textss{
+      color: #7a7a7a;
+        margin: 15px 0;
+        line-height: 30px;
+        
+    
+    }
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1pxsolidrgba(0,0,0,.125);
+      border-radius: 0.25rem;
+  }
+  
+  .card {
+    box-shadow: 0px 20px 20px #0000001a;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20rem;
+}
+
+.virtual {
+  text-align: left;
+  text-transform: inherit;
+  font-weight: 700;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+}
+.virtualp{
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin-bottom: 0px !important;
+}
+
+.cardss{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Companies-business {
+  background-image: url(//www.vfairs.com/wp-content/themes/vfairs/assets/css/../../../../../wp-content/uploads/2021/05/Bg-for-companies.png);
+  background-repeat: no-repeat;
+  background-position: 10% bottom;
+}
+
+#header a.logo, #header a.logo:visited {
+  margin: 10px 0px;
+  float: left;
+  line-height: 0;
+  transition: opacity 0.12s linear 0s;
+  max-width: 100px;
+}
+
+// @media (min-width: 768px){
+// .col-6 {
+//     width: 47.5%;
+// }
+// [class^=col-] {
+//     width: 100%;
+//     min-height: 1px;
+//     margin-right: 5%;
+//     float: left;
+//     box-sizing: border-box;
+// }
+// }
+.solutions-block ul li {
+  max-width: 264px;
+  padding: 10px 20px !important;
+  min-height: 241px;
+  display: block !important;
+  background: #fff 0% 0% no-repeat padding-box;
+  box-shadow: 0px -1px 20px #0000001a;
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  opacity: 1;
+  float: left;
+  width: 100% !important;
+  box-sizing: border-box;
+  margin: 11px 10px !important;
+  padding: 19px 15px !important;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imggs{
+  // align-items: center;
+  justify-content: center;
+}
+.hh{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// jkbkjjklbjk
+.small-card{
+  display: flex;
+}
+
+@media only screen and (max-width: 720px){
+  .small-card {
+      flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .bigcards {
+display: none; 
+ }
+}
+
+.sm-card{
+  text-align: center;
+  align-items: center;
+
+}
+@media only screen and (min-width: 768px){
+  .sm-card{
+    display: none;
+    text-align: center;
+    padding: 0 20px;
+    font-size:18px;
+    padding-left: 8px;
+    // margin-left: -23px;
+
+    // margin-left: -39px;
+
+  } }
+
+  @media screen and (max-width: 767px){
+    .names{
+      padding: 10px;
+      font-size: 7px; 
+  }
+
+  }
+ 
+    
+  @media screen and (max-width: 425px){
+    .heads{
+     text-align: center;
+  }
+  .sub{
+    text-align: center;
+  }
+  .text{
+    text-align: center;
+  }
+  .pd{
+    margin-top: 5px;
+  }
+
+  }
+  
+  // @media only screen and (min-width: 320px){
+  //   .sm-card{
+     
+  //     margin-left: -23px;
+  
+  //   } }

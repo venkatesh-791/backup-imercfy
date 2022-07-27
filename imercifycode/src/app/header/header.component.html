@@ -1,0 +1,87 @@
+<!-- <div>
+<nav   class="navbar navbar-expand-lg fixed-top  header-cont" [ngClass]="isBottom ? toggleS ? 'abc' : 'bottom' : 'top'">
+  <div class=" bars col-10" >
+    <a class="navbar-brand" href="#">
+      <img src="../../assets/landing/imercfy-09.png" alt="openworx.com" class="logo" (click)="routeNav()">
+    </a>
+    <button   style="color: white;" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" (click)="clickToggleColor()" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i  id="bar" style="color: black; " [ngClass]="isBottom ? defaultStatus =='Services'? 'isActive' : 'hovered' : 'head'"  class="fa fa-bars" aria-hidden="true"></i>
+
+    </button>
+    
+    <div  class="collapse header-cont abc navbar-collapse" #toggle id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2  mb-lg-0 mx-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link"  routerLink="/products" id="#navbarDropdown" [ngClass]="isBottom ? defaultStatus =='Product'? 'isActive' : 'hovered' : 'head'" role="button" data-bs-toggle="dropdown" 
+          aria-expanded="false" (click)="activeStatus('Product')"  routerLinkActive="active  " style="font-size: medium;" >   Why Imercfy 
+ </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="isBottom ? defaultStatus =='Services'? 'isActive' : 'hovered' : 'head'" routerLink="/service" (click)="activeStatus('Services')"  routerLinkActive="active"style="font-size: medium;">Features   <i style="font-size: small;"class="fa fa-chevron-down"></i></a>
+       
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="isBottom ? defaultStatus =='Customers'? 'isActive' : 'hovered' : 'head'" routerLink="/customers" (click)="activeStatus('Customers')"  routerLinkActive="active"style="font-size: medium;">Solutions   <i style="font-size: small;"class="fa fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  [ngClass]="isBottom ? defaultStatus =='Metrics'? 'isActive' : 'hovered' : 'head'" routerLink="/metrics" (click)="activeStatus('Metrics')"  routerLinkActive="active"style="font-size: medium;">Customers   <i style="font-size: small;"class="fa fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " [ngClass]="isBottom ? defaultStatus =='Pricing'? 'isActive' : 'hovered' : 'head'"  routerLink="/pricing" (click)="activeStatus('Pricing')"  routerLinkActive="active"style="font-size: medium;">  Resources <i style="font-size: small;"class="fa fa-chevron-down"></i>
+          </a>   
+        </li>
+          
+      </ul>
+      <button class="btn btn next my-2 mx-2 my-sm-0" (click)="routeChange()"  routerLinkActive="active" type="button"> <strong style="font-size: 13.5px;">  Enter into immersive website</strong></button>
+
+
+    </div>
+  </div>
+ </nav> 
+
+</div> -->
+
+ <nav class=""  style="z-index: 9999;">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+
+    <i  style="color: black;" class="fa fa-bars" aria-hidden="true"></i>  </label>
+<div class="logo">
+  <img routerLink="/"  routerLinkActive="active" src="../../assets/landing/imercfy-09.png" alt="openworx.com" class="logo" >
+
+</div>
+<ul style="color: black;" >
+  <li class="fl" routerLink="/why"  routerLinkActive="active" >Why Imercfy  </li> 
+   <li class="fl"  routerLink="/feat"  routerLinkActive="active"  >Features  <i style="font-size: small;"class="fa fa-chevron-down"></i></li>
+   <li class="fl"  routerLink="/solut" routerLinkActive="active" >Solutions  <i style="font-size: small;"class="fa fa-chevron-down"></i></li>
+   <li class="fl"  routerLink="/about" routerLinkActive="active" >About  <i style="font-size: small;"class="fa fa-chevron-down"></i></li>
+   <li class="fl"  routerLink="/contact" routerLinkActive="active" >Contact  <i style="font-size: small;"class="fa fa-chevron-down"></i></li>
+
+
+     <li class="flo"  > <a > <button> Enter into Immersive Website</button></a></li>
+
+
+</ul>
+
+</nav>   
+
+
+
+<!-- <nav  style="z-index: 9999;">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+
+    <i class="fa fa-bars" aria-hidden="true"></i>  </label>
+<div class="logo">
+  <img routerLink="/"  routerLinkActive="active" src="../../assets/landing/imercfy-09.png" alt="openworx.com" class="logo" >
+</div>
+<ul >
+  <li class="fl" > <a href="why" class="active" >Why Imercfy</a></li>
+  <li class="fl" > <a href="/feat">Features</a></li>
+  <li class="fl" > <a href="/solut">Solutions</a></li>
+  <li class="flo"  > <a > <button> Enter into Immersive Website</button></a></li>
+
+
+</ul>
+
+</nav>   -->
